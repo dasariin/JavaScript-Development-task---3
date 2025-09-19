@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced Quiz App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <div class="quiz-header">
+      <div class="question-count">Question: <span id="current">1</span>/<span id="total">3</span></div>
+      <div class="timer">Time: <span id="time">00:00</span></div>
+    </div>
+    
+    <h1>Simple Quiz App</h1>
+    
+    <div class="progress-container">
+      <div class="progress-bar" id="progress"></div>
+    </div>
+    
+    <div id="quiz"></div>
+    
+    <div class="navigation-buttons">
+      <button id="prev" disabled>Previous</button>
+      <button id="next">Next</button>
+    </div>
+    
+    <button id="submit">Submit</button>
+    <button id="restart" style="display: none;">Try Again</button>
+    
+    <div id="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
